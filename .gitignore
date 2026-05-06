@@ -1,0 +1,27 @@
+# Archivos a ignorar en Git
+# Base de datos generada en tiempo de ejecucion
+incidencias.db
+
+# Fotos subidas por usuarios (guardadas localmente, no en el repositorio)
+uploads/*
+
+# Excepcion: mantener el directorio en el repo con el archivo marcador
+!uploads/.gitkeep
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
